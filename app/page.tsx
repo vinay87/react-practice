@@ -9,6 +9,8 @@ export default function Home() {
 
   return (
     <>
+      <h2>Vinay React Practice</h2>
+
       <p>Count: {count}</p>
       <button onClick={() => setCount(count + 1)}>Click to increment</button> &nbsp;
       <button onClick={() => setCount(count - 1)}> Click to decrement</button> &nbsp;

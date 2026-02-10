@@ -11,7 +11,8 @@ export default function Home() {
     <>
       <p>Count: {count}</p>
       <button onClick={() => setCount(count + 1)}>Click to increment</button> &nbsp;
-      <button onClick={() => setCount(count - 1)}> Click to decrement</button>
+      <button onClick={() => setCount(count - 1)}> Click to decrement</button> &nbsp;
+      <button onClick={() => setCount(0)}>Reset</button>
 
     </>
 
